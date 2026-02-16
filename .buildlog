@@ -2,3 +2,4 @@
 2026-02-14T12:33:49 init project structure
 2026-02-15T09:14:36 add dataclass contracts
 2026-02-15T22:02:33 initial package layout
+2026-02-16T11:49:13 extract result type

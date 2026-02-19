@@ -6,3 +6,4 @@
 2026-02-17T19:14:51 harden validation paths
 2026-02-18T19:00:54 handle empty input edge case
 2026-02-19T19:37:31 introduce typed error hierarchy
+2026-02-19T22:15:46 implement core engine

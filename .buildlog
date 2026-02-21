@@ -8,3 +8,4 @@
 2026-02-19T19:37:31 introduce typed error hierarchy
 2026-02-19T22:15:46 implement core engine
 2026-02-20T23:24:11 refactor module boundaries
+2026-02-21T21:46:41 wire internal state machine

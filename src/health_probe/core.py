@@ -8,3 +8,26 @@ from enum import Enum
 
 class HealthProbeError(Exception):
     pass
+
+
+class UnknownCheckError(HealthProbeError):
+    def __init__(self, name: str) -> None:
+        super().__init__(f"unknown health check: {name!r}")
+
+
+class HealthStatus(str, Enum):
+    HEALTHY = "healthy"
+    DEGRADED = "degraded"
+    UNHEALTHY = "unhealthy"
+
+
+@dataclass(frozen=True)
+class CheckResult:
+    name: str
+    status: HealthStatus
+    duration_ms: float
+    detail: str = ""
+    checked_at: float = 0.0
+
+    @property
+    def passed(self) -> bool:

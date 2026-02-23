@@ -10,3 +10,4 @@
 2026-02-20T23:24:11 refactor module boundaries
 2026-02-21T21:46:41 wire internal state machine
 2026-02-22T13:44:33 introduce typed error hierarchy pt2
+2026-02-23T09:13:43 refactor module boundaries pt2

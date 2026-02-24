@@ -31,3 +31,6 @@ class CheckResult:
 
     @property
     def passed(self) -> bool:
+        return self.status is not HealthStatus.UNHEALTHY
+
+

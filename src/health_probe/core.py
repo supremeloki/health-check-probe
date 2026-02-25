@@ -34,3 +34,5 @@ class CheckResult:
         return self.status is not HealthStatus.UNHEALTHY
 
 
+@dataclass(frozen=True)
+class HealthReport:

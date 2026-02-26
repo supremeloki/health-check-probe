@@ -39,3 +39,5 @@ class HealthReport:
     overall: HealthStatus
     results: tuple[CheckResult, ...]
     generated_at: float
+
+    @property

@@ -43,3 +43,6 @@ class HealthReport:
     @property
     def healthy_count(self) -> int:
         return sum(1 for r in self.results if r.status is HealthStatus.HEALTHY)
+
+    @property
+    def failing_checks(self) -> tuple[str, ...]:

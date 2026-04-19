@@ -46,3 +46,5 @@ class HealthReport:
 
     @property
     def failing_checks(self) -> tuple[str, ...]:
+        return tuple(r.name for r in self.results if not r.passed)
+

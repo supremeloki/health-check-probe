@@ -51,3 +51,5 @@ class HealthReport:
     def to_dict(self) -> dict:
         return {
             "status": self.overall.value,
+            "checks": {
+                r.name: {"status": r.status.value,

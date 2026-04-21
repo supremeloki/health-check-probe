@@ -20,3 +20,4 @@
 2026-02-27T20:50:08 implement core engine pt2
 2026-04-19T21:18:10 refactor module boundaries pt2
 2026-04-20T11:29:15 introduce typed error hierarchy pt2
+2026-04-21T12:03:21 add dataclass contracts pt2

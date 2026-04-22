@@ -53,3 +53,5 @@ class HealthReport:
             "status": self.overall.value,
             "checks": {
                 r.name: {"status": r.status.value,
+                         "duration_ms": r.duration_ms,
+                         "detail": r.detail}

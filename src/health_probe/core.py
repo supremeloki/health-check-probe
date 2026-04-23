@@ -58,3 +58,5 @@ class HealthReport:
                 for r in self.results
             },
         }
+
+

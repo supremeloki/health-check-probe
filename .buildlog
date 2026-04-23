@@ -23,3 +23,4 @@
 2026-04-21T12:03:21 add dataclass contracts pt2
 2026-04-22T14:39:25 extend public api surface
 2026-04-23T19:47:01 add cli entrypoint
+2026-04-23T23:03:03 add streaming path

@@ -60,3 +60,5 @@ class HealthReport:
         }
 
 
+@dataclass
+class CheckDefinition:

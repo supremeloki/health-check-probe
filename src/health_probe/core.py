@@ -62,3 +62,6 @@ class HealthReport:
 
 @dataclass
 class CheckDefinition:
+    name: str
+    check_fn: Callable[[], bool | str | None]
+    critical: bool = True

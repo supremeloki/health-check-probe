@@ -28,3 +28,4 @@
 2026-04-24T23:18:24 wire async handlers
 2026-04-25T17:36:08 implement cache layer
 2026-04-25T19:30:02 support multiple sources
+2026-04-25T21:42:11 expose metrics hooks

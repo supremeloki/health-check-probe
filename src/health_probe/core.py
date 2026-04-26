@@ -72,3 +72,5 @@ class CheckDefinition:
 def _classify(outcome: bool | str | None) -> tuple[HealthStatus, str]:
     if outcome is True or outcome is None:
         return HealthStatus.HEALTHY, ""
+    if isinstance(outcome, str):
+        return HealthStatus.DEGRADED, outcome

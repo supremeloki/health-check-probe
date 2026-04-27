@@ -74,3 +74,6 @@ def _classify(outcome: bool | str | None) -> tuple[HealthStatus, str]:
         return HealthStatus.HEALTHY, ""
     if isinstance(outcome, str):
         return HealthStatus.DEGRADED, outcome
+    return HealthStatus.UNHEALTHY, ""
+
+

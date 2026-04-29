@@ -79,3 +79,6 @@ def _classify(outcome: bool | str | None) -> tuple[HealthStatus, str]:
 
 class HealthRegistry:
     def __init__(self, clock: Callable[[], float] | None = None) -> None:
+        self._clock = clock or time.monotonic
+        self._checks: dict[str, CheckDefinition] = {}
+

@@ -82,3 +82,5 @@ class HealthRegistry:
         self._clock = clock or time.monotonic
         self._checks: dict[str, CheckDefinition] = {}
 
+    def register(self, name: str, check_fn: Callable[[], bool | str | None],
+                 *, critical: bool = True,

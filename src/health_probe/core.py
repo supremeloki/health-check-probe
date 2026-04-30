@@ -84,3 +84,5 @@ class HealthRegistry:
 
     def register(self, name: str, check_fn: Callable[[], bool | str | None],
                  *, critical: bool = True,
+                 timeout_seconds: float = 5.0,
+                 warn_threshold_ms: float = 1000.0) -> "HealthRegistry":

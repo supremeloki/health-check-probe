@@ -86,3 +86,6 @@ class HealthRegistry:
                  *, critical: bool = True,
                  timeout_seconds: float = 5.0,
                  warn_threshold_ms: float = 1000.0) -> "HealthRegistry":
+        self._checks[name] = CheckDefinition(
+            name=name, check_fn=check_fn, critical=critical,
+            timeout_seconds=timeout_seconds, warn_threshold_ms=warn_threshold_ms,

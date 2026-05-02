@@ -89,3 +89,5 @@ class HealthRegistry:
         self._checks[name] = CheckDefinition(
             name=name, check_fn=check_fn, critical=critical,
             timeout_seconds=timeout_seconds, warn_threshold_ms=warn_threshold_ms,
+        )
+        return self

@@ -71,3 +71,5 @@ def test_slow_check_flags_degraded():
     result = registry.run_check("disk")
     assert result.status is HealthStatus.DEGRADED
     assert "slow" in result.detail
+
+

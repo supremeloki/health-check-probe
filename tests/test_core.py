@@ -69,3 +69,5 @@ def test_slow_check_flags_degraded():
     registry = HealthRegistry(clock=slow_clock)
     registry.register("disk", lambda: True, warn_threshold_ms=2000)
     result = registry.run_check("disk")
+    assert result.status is HealthStatus.DEGRADED
+    assert "slow" in result.detail

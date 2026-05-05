@@ -73,3 +73,5 @@ def test_slow_check_flags_degraded():
     assert "slow" in result.detail
 
 
+def test_overall_status_worst_wins():
+    registry = HealthRegistry(clock=FakeClock())

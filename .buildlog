@@ -40,3 +40,4 @@
 2026-05-03T20:39:06 extend public api surface pt2
 2026-05-04T18:24:42 support config overrides pt2
 2026-05-04T21:02:59 support multiple sources pt2
+2026-05-05T09:03:32 add cli entrypoint pt2

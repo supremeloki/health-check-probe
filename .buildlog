@@ -43,3 +43,4 @@
 2026-05-05T09:03:32 add cli entrypoint pt2
 2026-05-05T19:28:07 expand unit coverage
 2026-05-06T17:47:36 regression test for parser
+2026-05-07T19:48:28 test grouping edge cases

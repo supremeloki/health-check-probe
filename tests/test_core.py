@@ -78,3 +78,5 @@ def test_overall_status_worst_wins():
     registry.register("ok", lambda: True)
     registry.register("bad", lambda: False)
     report = registry.run_all()
+    assert report.overall is HealthStatus.UNHEALTHY
+    assert report.failing_checks == ("bad",)

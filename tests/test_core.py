@@ -80,3 +80,5 @@ def test_overall_status_worst_wins():
     report = registry.run_all()
     assert report.overall is HealthStatus.UNHEALTHY
     assert report.failing_checks == ("bad",)
+
+

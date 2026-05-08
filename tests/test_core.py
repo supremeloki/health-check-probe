@@ -82,3 +82,5 @@ def test_overall_status_worst_wins():
     assert report.failing_checks == ("bad",)
 
 
+def test_degraded_overall():
+    registry = HealthRegistry(clock=FakeClock())

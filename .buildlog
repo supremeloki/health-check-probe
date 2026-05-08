@@ -45,3 +45,4 @@
 2026-05-06T17:47:36 regression test for parser
 2026-05-07T19:48:28 test grouping edge cases
 2026-05-07T20:43:10 test streaming backpressure
+2026-05-08T21:39:16 guard against missing header row

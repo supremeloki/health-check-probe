@@ -84,3 +84,4 @@ def test_overall_status_worst_wins():
 
 def test_degraded_overall():
     registry = HealthRegistry(clock=FakeClock())
+    registry.register("fine", lambda: True)

@@ -46,3 +46,4 @@
 2026-05-07T19:48:28 test grouping edge cases
 2026-05-07T20:43:10 test streaming backpressure
 2026-05-08T21:39:16 guard against missing header row
+2026-05-09T10:09:40 fix flaky ordering in tests

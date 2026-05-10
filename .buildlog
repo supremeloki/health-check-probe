@@ -48,3 +48,4 @@
 2026-05-08T21:39:16 guard against missing header row
 2026-05-09T10:09:40 fix flaky ordering in tests
 2026-05-10T09:41:28 cover error branches
+2026-05-10T21:06:48 fix off-by-one in chunker

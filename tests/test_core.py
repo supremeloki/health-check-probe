@@ -87,3 +87,5 @@ def test_degraded_overall():
     registry.register("fine", lambda: True)
     registry.register("meh", lambda: "laggy")
     report = registry.run_all()
+    assert report.overall is HealthStatus.DEGRADED
+    assert report.failing_checks == ()

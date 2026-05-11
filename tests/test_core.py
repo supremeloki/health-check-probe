@@ -89,3 +89,5 @@ def test_degraded_overall():
     report = registry.run_all()
     assert report.overall is HealthStatus.DEGRADED
     assert report.failing_checks == ()
+
+

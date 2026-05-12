@@ -91,3 +91,5 @@ def test_degraded_overall():
     assert report.failing_checks == ()
 
 
+def test_report_to_dict_shape():
+    registry = HealthRegistry(clock=FakeClock())

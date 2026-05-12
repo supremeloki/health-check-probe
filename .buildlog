@@ -50,3 +50,4 @@
 2026-05-10T09:41:28 cover error branches
 2026-05-10T21:06:48 fix off-by-one in chunker
 2026-05-11T20:27:44 test grouping edge cases pt2
+2026-05-12T21:36:18 regression test for parser pt2

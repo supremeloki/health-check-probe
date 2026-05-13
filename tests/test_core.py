@@ -93,3 +93,4 @@ def test_degraded_overall():
 
 def test_report_to_dict_shape():
     registry = HealthRegistry(clock=FakeClock())
+    registry.register("svc", lambda: True)

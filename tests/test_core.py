@@ -96,3 +96,5 @@ def test_report_to_dict_shape():
     registry.register("svc", lambda: True)
     payload = registry.run_all().to_dict()
     assert payload["status"] == "healthy"
+    check = payload["checks"]["svc"]
+    assert set(check) == {"status", "duration_ms", "detail"}

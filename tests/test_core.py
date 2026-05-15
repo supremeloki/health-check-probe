@@ -98,3 +98,5 @@ def test_report_to_dict_shape():
     assert payload["status"] == "healthy"
     check = payload["checks"]["svc"]
     assert set(check) == {"status", "duration_ms", "detail"}
+
+

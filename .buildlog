@@ -55,3 +55,4 @@
 2026-05-14T18:44:07 regression test for parser pt2
 2026-05-14T21:45:02 cover error branches pt2
 2026-05-15T23:54:16 test grouping edge cases pt2
+2026-05-16T09:47:28 guard against missing header row pt2

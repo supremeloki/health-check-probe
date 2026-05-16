@@ -100,3 +100,4 @@ def test_report_to_dict_shape():
     assert set(check) == {"status", "duration_ms", "detail"}
 
 
+def test_register_unregister_roundtrip():

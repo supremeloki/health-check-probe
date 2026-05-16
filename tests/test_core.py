@@ -101,3 +101,5 @@ def test_report_to_dict_shape():
 
 
 def test_register_unregister_roundtrip():
+    registry = HealthRegistry(clock=FakeClock())
+    registry.register("temp", lambda: True)

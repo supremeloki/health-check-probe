@@ -57,3 +57,4 @@
 2026-05-15T23:54:16 test grouping edge cases pt2
 2026-05-16T09:47:28 guard against missing header row pt2
 2026-05-16T12:51:55 fix off-by-one in chunker pt2
+2026-05-17T09:09:59 polish install instructions

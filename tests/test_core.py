@@ -107,3 +107,5 @@ def test_register_unregister_roundtrip():
     assert registry.unregister("temp") is True
     assert registry.unregister("temp") is False
     assert registry.check_names == ()
+
+

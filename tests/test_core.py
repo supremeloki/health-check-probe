@@ -110,3 +110,5 @@ def test_register_unregister_roundtrip():
 
 
 def test_empty_registry_reports_healthy():
+    report = HealthRegistry(clock=FakeClock()).run_all()
+    assert report.overall is HealthStatus.HEALTHY

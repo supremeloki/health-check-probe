@@ -109,3 +109,4 @@ def test_register_unregister_roundtrip():
     assert registry.check_names == ()
 
 
+def test_empty_registry_reports_healthy():

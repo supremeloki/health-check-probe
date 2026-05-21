@@ -114,3 +114,5 @@ def test_empty_registry_reports_healthy():
     assert report.overall is HealthStatus.HEALTHY
     assert report.results == ()
 
+
+def test_none_outcome_treated_healthy():

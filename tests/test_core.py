@@ -118,3 +118,4 @@ def test_empty_registry_reports_healthy():
 def test_none_outcome_treated_healthy():
     registry = HealthRegistry(clock=FakeClock())
     registry.register("voidcheck", lambda: None)
+    assert registry.run_check("voidcheck").status is HealthStatus.HEALTHY

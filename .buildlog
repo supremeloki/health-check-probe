@@ -72,3 +72,4 @@
 2026-05-25T19:32:40 document error hierarchy pt2
 2026-05-26T21:12:38 tag prep cleanup
 2026-05-27T11:56:18 perf: avoid re-parsing rows
+2026-05-28T21:08:46 refactor pipeline builder

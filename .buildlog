@@ -73,3 +73,4 @@
 2026-05-26T21:12:38 tag prep cleanup
 2026-05-27T11:56:18 perf: avoid re-parsing rows
 2026-05-28T21:08:46 refactor pipeline builder
+2026-05-28T22:02:03 final quality pass

@@ -74,3 +74,4 @@
 2026-05-27T11:56:18 perf: avoid re-parsing rows
 2026-05-28T21:08:46 refactor pipeline builder
 2026-05-28T22:02:03 final quality pass
+2026-05-29T23:27:50 bump version
